@@ -1,0 +1,51 @@
+body{
+    background-color: #303c98;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Path: Pages/styles.css */
+.heading{
+    color: #ffffff;
+    padding: 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub-heading{
+    color: #ffffff;
+    padding: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.skills{
+    color: #ffffff;
+    padding: 0px;
+    font-size: 25px;
+    text-align: center;
+}
+
+button {
+	background-color: #FFC0CB;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+.heart-icon {
+	color: red;
+	margin-right: 5px;
+}
+
+#like-count {
+	margin-left: 5px;
+}
