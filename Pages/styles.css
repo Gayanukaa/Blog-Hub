@@ -73,3 +73,45 @@ button {
     margin-right: 5px;
   }
 
+.image-link {
+    position: relative;
+    margin-left: 120px;
+    margin-right: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    top: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    transition: all 2s;
+}
+
+.image-link img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    transition: all 2s;
+}
+
+.image-link .text {
+    position: absolute;
+    top: 10%;
+    left: 53%;
+    right: 1%;
+}
+
+.image-link:hover{
+    transform:scale(112%,112%);
+}
+
+.image-link:hover img {
+    transform:scale(101%,100%);
+}
+
+.image-link:hover .text {
+    transform: translateY(5%) scale(1.05);
+}
+
+/* Path: Pages/styles.css */
+
