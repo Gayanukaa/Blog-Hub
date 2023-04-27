@@ -75,12 +75,13 @@ button {
 
 .image-link {
     position: relative;
+    margin-top: 20px;
     margin-left: 120px;
     margin-right: 50px;
+    margin-bottom: 10px;
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
-    top: 10px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
     border-width: 2px;
