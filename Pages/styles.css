@@ -135,8 +135,39 @@ button {
 }
 
 .image-link:hover .text {
-    transform: translateY(5%) scale(1.05);
+    transform: translateY(4%) scale(1.05);
 }
 
-/* Path: Pages/styles.css */
+@media (max-width: 800px) {
+    .list-container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
+    .image-link {
+        flex-direction: column;
+    }
+    
+    .image-link img {
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%;
+        height: auto;   
+    }
+
+
+    .image-link .text{
+        padding:auto;
+    }
+
+    .image-link .text h3{
+        font-size: 22px;
+    }
+
+    .image-link .text p{
+        position: relative;
+        left: 0%;
+        font-size: 18px;
+    }
+  }
+/* Path: Pages/styles.css */
