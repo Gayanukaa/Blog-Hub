@@ -40,7 +40,7 @@ body{
 }
 
 button {
-	background-color: #FFC0CB;
+	background-color: #e8a0ac;
 	color: white;
 	padding: 10px 20px;
 	border: none;
@@ -52,7 +52,7 @@ button {
 }
 
 .heart-icon {
-	color: red;
+	color: rgb(192, 0, 0);
 	margin-right: 5px;
 }
 
@@ -63,7 +63,7 @@ button {
 .list-container {
     display: flex;
     justify-content: center;
-  }
+}
 
 .list-content{
     color: #ffffff;
@@ -104,8 +104,8 @@ button {
     align-items: center;
     padding: auto;
     margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 18px;
+    margin-bottom: 18px;
     max-width: 1000px;
 }
 
@@ -135,7 +135,7 @@ button {
 }
 
 .image-link:hover .text {
-    transform: translateY(4%) scale(1.05);
+    transform: translateY(4%) scale(1.02);
 }
 
 @media (max-width: 800px) {
@@ -155,7 +155,6 @@ button {
         height: 60%;
     }
 
-
     .image-link .text{
         padding:auto;
     }
@@ -169,5 +168,5 @@ button {
         left: 0%;
         font-size: 18px;
     }
-  }
+}
 /* Path: Pages/styles.css */
