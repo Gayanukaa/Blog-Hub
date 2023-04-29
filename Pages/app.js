@@ -1,3 +1,11 @@
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        loader.style.display = "none";
+    }, 2500);
+});
+
 const likeButton = document.getElementById('like-buttonn');
 const likeCount = document.getElementById('like-count');
 
@@ -43,11 +51,3 @@ xhr.onload = function() {
   }
 };
 xhr.send();
-
-var loader = document.getElementById("preloader");
-
-window.addEventListener("load", function () {
-    setTimeout(function () {
-        loader.style.display = "none";
-    }, 2500);
-  });
