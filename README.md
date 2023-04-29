@@ -12,7 +12,7 @@ Execute file to run
  -->
 
 
-- Each page built using HTML & CSS
+- Mobile responsive
 <!-- To update -->
 
 <!--
