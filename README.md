@@ -1,30 +1,32 @@
-# Profile-Linker
+# Blog-Hub
 
-### Open UoM - Web Design for Beginners - Final Project
+### Personal blog - Collection of artciles written by me
 
 Project coded using Visual Studio Code
 
-<!-- 
-Execute file to run
+<a href="https://blog-hub-gayanukaa.vercel.app/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/?size=512&id=eOKJEHcCXZgA&format=png" width="36" height="36" alt="C#" /> Website</a>
+
+To execute file locally run
 ```bash
-  https://github.com/Gayanukaa/Pizza-Shop/blob/main/src/pizza/shop/Forms/StartUpPage.form
+  https://github.com/Gayanukaa/Blog-Hub/blob/main/Pages/index.html
 ```
- -->
 
 
 - Mobile responsive
+- Static website
+- Hosted on Vercel
 <!-- To update -->
 
-<!--
+
 ## Documentation
 
-[Project Requirements](https://github.com/Gayanukaa/Pizza-Shop/blob/main/Project%20Recquirements.txt)
+[Project Requirements](https://github.com/Gayanukaa/Blog-Hub/tree/main/Project%20Recquirements)
 ## Contributing
 
 Contributions are always welcome!\
 Please adhere to this project's `code of conduct`.
 
--->
+
 ## License
 
 [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
