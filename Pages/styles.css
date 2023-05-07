@@ -156,8 +156,9 @@ button {
 }
 
 .contact-image{
-    height: auto;
     margin-right: 50px;
+    width: 20%;
+    height: 20%;
 }
 
 .contact-table{
@@ -170,7 +171,7 @@ button {
 .contact-table td {
     border: 1px solid rgb(255, 255, 255);
     padding: 10px;
-  }
+}
 
 .social-media{
     text-align: center;
@@ -208,7 +209,7 @@ button {
     color: white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     #preloader{
         background-size: 50%;
     }
@@ -241,6 +242,19 @@ button {
         position: relative;
         left: 0%;
         font-size: 18px;
+    }
+
+    .contact-details{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .contact-image{
+        width: 50%;
+        height: 50%;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
     }
 }
 /* Path: Pages/styles.css */
