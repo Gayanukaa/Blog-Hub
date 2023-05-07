@@ -219,6 +219,12 @@ button {
         margin-right: 5px;
     }
 
+    .articles{
+        padding: auto;
+        max-width: 350px;
+        margin: auto;
+    }
+
     .image-link {
         flex-direction: column;
     }
@@ -235,13 +241,14 @@ button {
     }
 
     .image-link .text h3{
-        font-size: 22px;
+        font-size: 20px;
+        font-size: larger;
     }
 
     .image-link .text p{
         position: relative;
         left: 0%;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .contact-details{
